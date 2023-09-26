@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+# Last Updated 2023-09-26
+#
+# On/Off 
+name: Power
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 00 FF 00 00
+# 
+# Fan Speed 1
+name: Fan_1
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 10 EF 00 00
+# 
+# Fan Speed 2
+name: Fan_2
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0C F3 00 00
+# 
+# Fan Speed 3
+name: Fan_3
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 08 F7 00 00
+# 
+# Pulse Speed 1
+name: Pulse_1
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 11 EE 00 00
+# 
+# Pulse Speed 2
+name: Pulse_2
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0D F2 00 00
+# 
+# Pulse Speed 3
+name: Pulse_3
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 09 F6 00 00
+# 
+name: Timer_1hr
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 12 ED 00 00
+# 
+name: Timer_2hr
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0E F1 00 00
+# 
+name: Timer_4hr
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0A F5 00 00
+# 
+name: Rotate_vertical
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 16 E9 00 00
+# 
+name: Rotate_horizontal
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 15 EA 00 00
+# 
+name: Rotate_all
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 14 EB 00 00
