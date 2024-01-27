@@ -1,2 +1,2 @@
 # flipper
- Collection and contributions for FlipperZero
+My collection and contributions for FlipperZero
